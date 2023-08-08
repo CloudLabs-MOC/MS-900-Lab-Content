@@ -81,7 +81,7 @@
  
     ![](Images/M3E2T1Step601.png) 
   
-    ![](Images/MS-900-2.png)  
+    ![](Images/ms-900-ex-1-task-1-step-14(2).png)  
   
     ![](Images/M3E2T1Step6.201.png)
    
@@ -89,17 +89,17 @@
 
     ![](Images/M3E2T1Step701.png) 
    
-    ![](Images/MS-900-04.png)
+    ![](Images/ms-900-ex-1-task-1-step-15(2).png)
    
     ![](Images/M3E2T1Step7.201.png)
 
 15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
-    ![](Images/MS-900-05.png)
+    ![](Images/ms-900-ex-1-task-1-step-16.png)
 
 16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
-    ![](Images/M3E2T1Step901.png)
+    ![](Images/ms-900-ex-1-task-1-step-17.png)
 
 17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
@@ -111,7 +111,7 @@
     
     > **Note:** You will have different members in your environment. 
     
-    ![](Images/MS-900-06.1.png)
+    ![](Images/ms-900-ex-1-task-1-step-20.png)
    
 20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
@@ -129,9 +129,9 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
     ![](Images/MS-900-07.png)
  
-1. click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+1. click on **Explore all your apps** ,this will redirect you to new page then in the search bar search for **Planner**, select that and this will redirect you to the **Planner** web page.
     
-    ![](Images/MS-900-08.png)
+    ![](Images/ms-900-ex-2-step-4.png)
     
 1. On **Welcome to Planner** window, Click **>**.
  
