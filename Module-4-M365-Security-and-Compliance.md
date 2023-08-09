@@ -77,7 +77,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
 1. From the navigation menu scroll down to **Admin centers** and select **Azure Active Directory**, the Azure Active Directory overview page will appear.
 
-   ![](Images/3.jpg)
+   ![](Images/3.png)
    
 1. On the Azure Active Directory page click on **Identity governance** under **Azure Active Directory** and then select **Privileged Identity Management**.
 
