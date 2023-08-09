@@ -81,7 +81,7 @@
  
     ![](Images/M3E2T1Step601.png) 
   
-    ![](Images/MS-900-2.png)  
+    ![](Images/ms-900-ex-1-task-1-step-14(2).png)  
   
     ![](Images/M3E2T1Step6.201.png)
    
@@ -89,17 +89,17 @@
 
     ![](Images/M3E2T1Step701.png) 
    
-    ![](Images/MS-900-04.png)
+    ![](Images/ms-900-ex-1-task-1-step-15(2).png)
    
     ![](Images/M3E2T1Step7.201.png)
 
 15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
-    ![](Images/MS-900-05.png)
+    ![](Images/ms-900-ex-1-task-1-step-16.png)
 
 16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
-    ![](Images/M3E2T1Step901.png)
+    ![](Images/ms-900-ex-1-task-1-step-17.png)
 
 17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
@@ -111,7 +111,7 @@
     
     > **Note:** You will have different members in your environment. 
     
-    ![](Images/MS-900-06.1.png)
+    ![](Images/ms-900-ex-1-task-1-step-20.png)
    
 20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
@@ -129,9 +129,10 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
     ![](Images/MS-900-07.png)
  
-1. click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+1. click on **Explore all your apps** ,this will redirect you to new page then in the search bar search for **Planner**, select that and this will redirect you to the **Planner** web page.
     
-    ![](Images/MS-900-08.png)
+    ![](Images/ms-900-ex-2-step-4.png)
+   ![](Images/ms-900-ex-2-step-4(2).png)
     
 1. On **Welcome to Planner** window, Click **>**.
  
@@ -163,7 +164,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**. Perform this step only if members are not added to the plan.
 
-    ![](Images/img63.png)
+    ![](Images/ms-900-ex-2-step-10.png)
 
 1. Search the name or email address of a person within your organization that you want to add to the plan and select the person's card when it appears.
 
@@ -233,13 +234,13 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Select **New Form** to begin creating your form.
 
-    ![](Images/form.png)
+    ![](Images/ms-900-ex-3-step-4(1).png)
 
 1. Enter a name for your form, you can also enter a description if needed.
 
 1. Click **Add New** to add a new question to the form. 
 
-    ![](Images/img66.png)
+    ![](Images/ms-900-ex-3-step-6.2.png)
 
 1. Choose from Choice, Text, Rating, or Date questions. You can also click More question types Drop down list for more question types in Microsoft Forms to select Ranking, Likert, File upload, or Net Promoter Score® questions. 
 
@@ -269,7 +270,7 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Now click on **Back** and select the **Responses tab**. From here you can see summary information data about your form, such as the number of responses and the average time it took for respondents to complete your form.
 
-    ![](Images/img73.png)
+    ![](Images/ms-900-ex-3-task1-step-14.png)
 
 ### Task 2 : Change a form Style and Sharing forms
 
@@ -277,7 +278,7 @@ In this task, you will learn how to customize the theme of your newly created fo
 
 1. Click on the **Style** at the top right of the design window and pick the color or background you want.
 
-    ![](Images/img74.png)
+    ![](Images/ms-900-ex-3-task2-step-1.png)
 
 1. If you prefer to customize the theme, within the theme page scroll down and select **+ Customize theme** button. From here you can either upload an image by clicking on **Upload image** icon or customize the color of your choice by clicking on **Customize color** button.
 
@@ -309,7 +310,7 @@ In this task, you will import sample financial data to PowerBI.
 
 1. Download sample data from https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download
 
-     ![](Images/img77.png)
+     ![](Images/ms-900-ex-4-task1-step-5.png)
    
 1. In Power BI, from the left navigation menu select **My workspace**.
 
