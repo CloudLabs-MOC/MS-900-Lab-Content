@@ -7,15 +7,15 @@
 
 # Sign up for Office 365 E5 free trial
 
-1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e5) and click on **Free trial**.
+1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e5) and click on **Try for free**.
 
-   ![](Images/Ms900-01.png)
+   ![](Images/tryforfree.png)
 
 1. Then on the next screen, in that enter following **Email (1)** and then click on **Next (2)**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject> 
 
-   ![](Images/Ms900-03.png)
+      ![](Images/Ms900-03.png)
 
 1. Click on **Sign in**.
 
@@ -25,7 +25,7 @@
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-   ![](Images/pass.png)
+      ![](Images/pass.png)
 
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
@@ -36,11 +36,14 @@
     ![](Images/stayin.png)
 
 1. Enter the **Phone Number**, and click on *Text Me* then it will ask you to enter a **verification code** which you have received as a SMS to the provided number and click on **Start your free trail**.
+   
    >**Note**: Make sure to provide a valid mobile number and choose the country code properly.
 
    ![](Images/Ms900-06.png)
 
 1. It show you the confirmation Message, Click on **Try Now**.
+
+   >**Note:** On information required pop-up, select Continue, it will redirect you to the new page, then go back.
 
    ![](Images/Ms900-07.png)
 

@@ -45,13 +45,13 @@ In this exercise, you will learn how to create users, assign a license to the us
 
 In this task, you will learn how to create and manage users from Microsoft Admin Center.
 
-1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
+1. From the left-hand navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
 
-1. From the navigation menu, click on the **Teams & Groups** icon and click on **Active teams & groups**. This will display a list of all the groups that are created.
+1. From the left-hand navigation menu, click on the **Teams & Groups** icon and click on **Active teams & groups**. This will display a list of all the groups that are created.
 
-1. Now to create a new user, from the navigation menu click on **Users** and click on **Active users**, and then select **Add a user** icon.
+1. Now to create a new user, from the left-hand navigation menu click on **Users** and click on **Active users**, and then select **Add a user** icon.
 
     ![](Images/ms900-lab1-3-img3.png)
 
@@ -83,13 +83,15 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
     ![](Images/ms900-lab1-img7.png)
    
-1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
+1. Verify that the user has been created successfully. 
+
+    >**Note:** If the newly created user does not appear, try refreshing the page until the user shows up.
 
 #### Task 2: Access other admin centers
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
-1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), to access other admin centers, from the navigation pane select **Show all**, under **Admin centers** choose **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Viva Engage, Dynamics 365, Power Apps, Skype for business, and other services.
+1. Now, open an another tab, browse to this URL [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), to access other admin centers, from the left-hand navigation pane select **Show all**, under **Admin centers** choose **All Admin centers**. It opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Viva Engage, Dynamics 365, Power Apps, Skype for business, and other services.
 
     ![](Images/MS-900-Mod-1-(admin).png)
    
@@ -137,7 +139,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 1. When prompted enter the username odl_user_<inject key="DeploymentID" enableCopy="false"/>yourtenant.onmicrosoft.com (where yourtenant is the tenant prefix provided by your lab hosting provider) and password:- <inject key="AzureAdUserPassword"></inject>.
    
-1. On the outlook page, select **New Mail**  to send a new mail. Enter a name or email address in the To, Bcc, and Cc field. In Subject, type the subject of the email message. Place the cursor in the body of the email message, and then start typing.  After typing your message, choose Send.
+1. On the outlook page, select **New Mail**  to send a new mail. Enter a name or email address in the To, Bcc, and Cc field. In Subject, type the subject of the email message. Place the cursor in the body of the email message, and then start typing. After typing your message, choose Send.
     
     ![](Images/MS-900-Mod-1-(outlooksend).png)
     
@@ -163,7 +165,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 OneDrive gives you one place to store, share, and sync your work or school files. As part of your organization's Microsoft 365 subscription, you can save your files in OneDrive and then work with them from almost any device, share files with others, give others permission to edit files and work on them at the same time.
 
-1. Now from App launcher under Apps, select **OneDrive**, from here you can manage all your **files**.
+1. Now from App launcher under Apps, select **OneDrive**, select **Your OneDrive is ready**, from here you can manage all your **files**.
    
     ![](Images/MS-900-img-2.png)
 
@@ -173,23 +175,23 @@ OneDrive gives you one place to store, share, and sync your work or school files
    
     > **Note**: Select **My Files**, if you are not able to see your folder refresh the page.
 
-    > **Note:** Before proceeding to the next step, download any png or mp4 files from the browser inside the C-drive.
+    > **Note:** Before proceeding to the next step, download this [png](https://www.freepnglogos.com/uploads/email-png/email-logo-communications-brands-and-logotypes-gmail-14.png) file and save it inside the C-drive.
 
-1. From the top navigation bar select, **+ Add New** and select **Files upload**, when prompted choose the file(s) that you want to upload.
+1. From the top navigation bar select, **+ Add New** and select **Files upload**, when prompted select the file(s) that you have downloaded.
 
     ![](Images/ms-900.lab1.1.png)
    
-1. Select the new file that you have uploaded, click on the **Show actions** icon. This will display the list of actions that can be performed.
+1. Select the checkbox of the new file that you have uploaded, click on the ellipses **...**, this will display the list of actions that can be performed.
 
-    ![](Images/MS-900-preview.png)
+    ![](Images/ellipses.png)
    
-1. On the **OneDrive** page select the file or folder you want to share by selecting the items. Select Share at the top of the page.
+1. On the **OneDrive** page select the checkbox of the file or folder you want to share by selecting the items. Select **Share (2)** at the top of the page.
 
     ![](Images/MS-900-share.png)
 
-1. Select **Anyone with the link can edit to customize the link** option. Set the options you want on your link, then select Apply when you are done.
+1. Select **Anyone with the link can edit** to customize the link option. Set the options you want on your link, then select Apply when you are done.
 
-    ![](Images/MS-900-send.png)
+    ![](Images/anyone.png)
 
       - **Anyone**: Gives access to anyone who receives this link, whether they receive it directly from you or forwarded from someone else. This may include people outside of your organization.
       
@@ -215,7 +217,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
 
 With engage people can openly connect across the organization, from here we can discuss ideas, share and collaborate with others.
 
-1. Select **App launcher**, under **Apps** select **engage**.
+1. Select **App launcher**, under **Apps** select **Engage**.
 
     >**Note:** inside the Apps options, if engage is not listed, then select **Explore all your Apps**, on the apps page search and select **engage**.
 
@@ -223,7 +225,7 @@ With engage people can openly connect across the organization, from here we can 
  
     ![](Images/MS-900-engage.png)
 
-1. From the left-hand pane, select **Communities**, click on **+ Create a community**, enter a name **Management** for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
+1. From the left-hand pane, select **Communities**, click on **+ Create a community**, enter a name **Management** for your community. In **Members**  search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
 
     ![](Images/M1E2T3Step2.101.png)  
    
@@ -236,20 +238,8 @@ With engage people can openly connect across the organization, from here we can 
     ![](Images/MS-900-discussion.png)
    
 1. Switch back to the engage account of the user whom you added to the group and verify if the user is added to the newly created group and if the posts are visible.
-  
-1. We can also send a private message to engage.
-   
-1. In the engage dashboard click on the **Inbox** icon and select  **New Private Messages**. 
-   
-    ![](Images/MS-900-inbox.png)
 
-1. In the **Add People** field, search or type the person's username. A drop-down menu of usernames that matches will appear.
-
-1. Select the person's name that you want the message to be sent to, enter the message you want to send and then click on **Post**.
-
-    ![](Images/MS-900-post.png)
-
-1. The recipient of the message will receive a notification about the received private message.
+1. Navigate back to the **Engage** page.
 
 1. Explore through other options available in engage.
 
@@ -259,7 +249,9 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 1. Select **App launcher**, inside the Apps options, select **Explore all your Apps**, on the apps page search and select **Stream**.
 
-1. In the Stream page, select the **upload** button, and open **File Explorer > Windows (C:) > AllFiles**  and select the video. Select **Upload** on **Upload to** pop-up.
+1. Open an another tab, and navigate to this [link](https://www.pexels.com/video/the-sun-illuminating-earth-s-surface-1851190/) and download this video inside the C-drive, before proceeding to the next step.
+
+1. On the Stream page, select the **upload** button, and select the file that you have downloaded. Select **Upload** on **Upload to** pop-up.
    
     ![](Images/MS-900-upload.png)
     
@@ -267,7 +259,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 1. It will show you the **Upload complete** pop-up, select **Open**. It will redirect you to the new-browser.
 
-1. Now, click on **Share** button.
+1. Now, click on **Share** button, and again select **Share**.
 
     ![](Images/MS-900-share1.png)
  
@@ -293,25 +285,25 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
     >**Note:** On the **News from sites** page, select **Close**.
 
-1. From the top of the SharePoint page, click **+ Create site (1)**  option. A site creation wizard will appear on the right-hand side of the screen. Based on your requirement you can select **Team site** or **Communication site**. For now, select **Team site (2)**.
+1. From the top of the SharePoint page, click **+ Create site (1)**  option. A site creation wizard will appear on the right-hand side of the screen. Based on your requirement you can select **Team site** or **Communication site**. For now, select **Team site (2)**. On the **Select a template** page, select any template of your choice and select **Use template**.
    
     ![](Images/img36.png)
    
     - Provide a name for your site:- **Sales-Demo**
     
+    - Select **Next**.
+
     - In the Privacy settings section, choose either **Public - anyone in the organization can access this site** or **Private - only members can access this site** to control who has access to your site.
 
-    -  Select a language for your site and click on **Next**
+    -  Select a language for your site and click on **Create site**
     
-     ![](Images/img37.png)
-    
-    -  In **Add site owners and members** pane, under **Add members** box, add the name or email address of users you want to be a member of your site and then click **Finish**.  
+    - Under **Add members** box, add the name or email address of users you want to be a member of your site and then click **Finish**.  
 
         >**Note:** Close **Next steps** pop-up.
     
 1. Now let us add and publish a page on the newly created site.
 
-1. On the home page of the site click on **New**, and then select **Page**.
+1. On the home page of the site click on **+ New**, and then select **Page**.
 
     ![](Images/MS-900-sharepoint.png)
 
