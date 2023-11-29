@@ -37,9 +37,9 @@ In this lab, you will complete the following tasks:
 
 #### Task 1: Create Office 365 Users [Read-Only]
 
-1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
+1. Open a new tab in the browser and log in to the admin center at https://admin.microsoft.com.
 
-3. From the navigation menu, click on the **Users (1)** icon and click on **Active users (2)**. This will display the list of active users.
+3. From the left-hand navigation menu, select **Users (1)** and select **Active users (2)**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
 
@@ -79,43 +79,37 @@ In this lab, you will complete the following tasks:
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
-1. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**. Under **Teams & Microsoft 365 groups**, select **+ Add a Microsoft 365 group**.
+1. From the left-hand navigation menu click on the **Teams & Groups (1)** and click on **Active teams & groups (2)**. Under **Teams & Microsoft 365 groups (3)**, select **+ Add a Microsoft 365 group (4)**.
 
-    ![](Images/MS-900-Mod-3-teams&groups.png)
+    ![](Images/activetteams.png)
 
-    ![](Images/MS-900-Mod-3-(m365).png)
+    ![](Images/addamicrosoft.png)
 
-12. On the Basics page, type a name for the group as **Sales-demo** and a description (optional). Click **Next**.
+12. On the Basics page, type a name for the group as **Sales-demo (1)** and a description (optional). Click **Next (2)**.
 
-    ![](Images/MS-900-Mod-3-basics.png)   
+    ![](Images/sales-demo.png)   
 
-13. On the **Owners** page, ,select **+ Assign owners**, choose the name of ODL user who will be designated to manage the group, then select **Add**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
+13. On the **Owners** page, select **+ Assign owners**, select the name of ODL user (1) who will be designated to manage the group, then select **Add (2)**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
     ![](Images/M3E2T1Step601.png) 
   
-    ![](Images/ms-900-ex-1-task-2-st-4(2).png)  
+    ![](Images/assignowner.png)  
    
-14. Now in the **Members** page, select **+ Add members**, select ODL user, click on **Add**, and then click **Next**. (**Note:** you can join 20 member including owner) 
+14. Now in the **Members** page, select **+ Add members**, select ODL user (1), click on **Add (2)**, and then click **Next**. (**Note:** you can join 20 member including owner) 
    
-    ![](Images/ms-900-ex-1-task-2-st-5.png)
+    ![](Images/addmembers.png)
 
-15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
+15. Now in the **Settings** page, type a unique email address for the group (1), choose a privacy option based on your requirement (2), and whether you want to add Microsoft Teams for the group, and then click **Next (3)**.
 
-    ![](Images/ms-900-ex-1-task-2-st-6.png)
+    ![](Images/groupsetting.png)
 
 17. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
-    ![](Images/MS-900-Mod-3-finish.png)
+    ![](Images/creategroup.png)
 
-18. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
-
-19. To add members to the group, navigate to the **Membership (1)** tab and select **Members (2)**.
-
-    ![](Images/MS-900-Mod-3-salesdemo.png)
+18. On the admin center page, select the name of the group that was created and to which you want to add members. If you are unable to see the newly created group, refresh the page.
    
-20. Click on **+ Add members**, select the users you want to add, and then click on **Save**.
-   
-21. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
+19. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
 ### Exercise 2: Explore Microsoft Planner 
 
@@ -123,9 +117,9 @@ Microsoft Planner provides a hub for team members to create plans, organize, and
 
 In this exercise, you will learn how to create a new plan in Microsoft Planner and add members to it, create buckets, add tasks to the bucket and assign the tasks to the user.
 
-1. In the Microsoft 365 admin center page click on the **App launcher** at the top left corner.
+1. On the Microsoft 365 admin center page select the **App launcher** at the top left corner.
  
-1. click on **Explore all your apps** and in the search bar search for **Planner**, this will redirect you to the **Planner** web page.
+1. click on **Explore all your apps** and in the search bar search for **Planner** and select it, this will redirect you to the **Planner** web page.
     
 1. On **Welcome to Planner** window, Click **>**.
  
@@ -145,15 +139,15 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. In the **New blank plan** window: 
     
-    - Enter a name for the plan as **Demo-plan**.
+    - Enter a name for the plan as **Demo-plan (1)**.
     
-    - Make the plan public if you want it to be visible to the rest of your organization and in search results or make it private if you want only plan members to see it.
+    - Make the plan public if you want it to be visible to the rest of your organization and in search results or make it private if you want only plan members to see it (2).
 
-    - Click on **Add to an existing group** to create your plan in an existing group ( i.e. **Sales-demo**) or if needed you can create a new group.
+    - Click on **Add to an existing group** to create your plan in an existing group ( i.e. **Sales-demo (3)**) or if needed you can create a new group.
     
-    - Select **Create**.
+    - Select **Create (4)**.
     
-    ![](Images/MS-900-Mod-3-planner.png)
+    ![](Images/demo-plan.png)
 
 1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**. 
 
@@ -161,39 +155,37 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Search with the ODL email address and select the person's card when it appears.
 
-1. Now to create a bucket click on **Add new bucket**. Buckets helps to organize tasks into things like workstreams, project phases, or topics. 
+1. Now to create a bucket select **Add new bucket**. Buckets helps to organize tasks into things like workstreams, project phases, or topics. 
 
 1. Type a name for the bucket, and then press Enter.
 
-1. Select **Add task** below the heading of the bucket to which you want to add a task.
+1. Select **+ Add task** below the heading of the bucket to which you want to add a task.
     
     - Provide a task name
     
     - Set a due date for the task
     
-    - Click on **Assign** and choose a plan member from the list. Type a ODL email address in the search box to add. click on Add task 
-    
-    ![](Images/MS-900-Mod-3-task.png)
+    - Click on **Assign** and choose a plan member from the list. Select **ODL_User <inject key="DeploymentID" enableCopy="false"/>**. Select **Add task**.
  
-1. Click on the task to open the task window. 
+1. Select the task that you created to open the task window. 
  
 1. Select **Start anytime** below Start date, and then select the start date you want. Select **Due anytime** below Due date, and then select the due date you want.
  
-    ![](Images/MS-900-Mod-3-(startdate).png)
+    ![](Images/startdateduedate.png)
      
 1. In the task window select **Priority**  from here you can set the priority of the task.
+
+1. Open an another new-tab, and navigate to this [link](https://www.pexels.com/video/the-sun-illuminating-earth-s-surface-1851190/) and download this video inside the C-drive, before proceeding to the next step.
  
-1. Select **Add attachment**. Select **From computer** to attach a locally stored file, select **Link** to include a link, or select **SharePoint** to attach a file from a SharePoint site.
+1. Select **Add attachment (1)**. Select **From computer (2)** to attach a locally stored file, and select the file that you downloaded in the previous step.
 
-    ![](Images/image10.png)
+    ![](Images/addattachment.png)
 
-1. Navigate to and select the file you want to attach or enter any link information and click on **Add**.
-
-1. You can also add comments in **Comment** section. When done click on the dismiss button in the upper-right corner of the task window to save and close the task.
+1. You can also add comments in **Comment** section. When done click on the close button in the upper-right corner of the task window to save and close the task.
 
 1. Now select **Charts**. The charts show how your plan is progressing, with details about what’s done, in progress, not started, and late.
 
-    ![](Images/img237.png)
+    ![](Images/task-plan.png)
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
@@ -213,7 +205,7 @@ With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see
 
 In this task, you will learn how to create a Form using Microsoft Forms.
 
-1. Open a browser where admin center page is opened.
+1. Navigate back to the browser where admin center page is opened.
 
 1. In the Microsoft 365 admin center page from the **App launcher** click on **Explore all your apps** and in the search bar search for **Forms**, this will redirect you to the **Forms** web page.
 
@@ -223,13 +215,13 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Enter a name **Demo** for your form, you can also enter a description if needed.
 
-1. Click **+ Add New** to add a new question to the form. 
+1. Select **+ Add New** to add a new question to the form. 
 
-    ![](Images/MS-900-Mod-3-demo.png)
+    ![](Images/demoaddnew.png)
 
 1. Choose from Choice, Text, Rating, or Date questions. You can also click More question types Drop down list for more question types in Microsoft Forms to select Ranking, Likert, File upload, or Net Promoter Score® questions. 
 
-    ![](Images/img67.png)
+    ![](Images/addnew1.png)
 
 1. For now select **Choice**. Enter the text you want to display for the question and each of the choices. Select **+ Add Option** to add more choices than the default two choices.
 
@@ -239,9 +231,9 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Text questions also allow you to set restrictions when you need to have numbers as the answer. For this click on **More options** button, and then select **Restrictions**.
     
-    ![](Images/img68.png)
+    ![](Images/question02.png)
    
-    ![](Images/img69.png)
+    ![](Images/restrictions.png)
   
 1. Now from the drop-down select **Between** and enter the number. You can choose to restrict the numbers by selecting from the various options such as Greater than, Less than, Between, and many others.
    
@@ -249,7 +241,7 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Select **Preview** at the top of the design window to see how your form will look on a computer. Now to test your form, enter answers for the questions in preview mode and then click on **Submit**.
 
-1. Now click on **Back** and select the **Responses tab**. From here you can see summary information data about your form, such as the number of responses and the average time it took for respondents to complete your form.
+1. Now click on **Back** and select the **Responses** tab. From here you can see summary information data about your form, such as the number of responses and the average time it took for respondents to complete your form.
 
 #### Task 2 : Change a form Style and Sharing forms
 
@@ -257,7 +249,7 @@ In this task, you will learn how to customize the theme of your newly created fo
 
 1. Click on the **Style** at the top right of the design window and pick the color or background you want.
 
-    ![](Images/MS-900-Mod-1-styles.png)
+    ![](Images/style.png)
 
 1. If you prefer to customize the style, within the style page scroll down and select **+ Customize theme** button. From here you can either upload an image by clicking on **Upload image** icon or customize the color of your choice by clicking on **Customize color** button.
 
@@ -282,16 +274,16 @@ In this task, you will import sample financial data to PowerBI.
 1. Open a new browser, copy-paste this URL "https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download". Now, select **Financial Sample Excel workbook**, it will re-direct you to an Excel sheet, and select **Download file** to download the sample data. 
 
      ![](Images/MS-900-Mod-1-directly.png)
+
+1. From the **App launcher** click on **Explore all your apps** and in the search bar search for **OneDrive**. Select **+ Add new**, select **Files upload**, now select the excel file that you downloaded. 
    
-1. In Power BI, from the left navigation menu select **My workspace**.
+1. Navigate back to the Power BI page, from the left navigation menu select **My workspace**.
 
     ![](Images/MS-900-11.png)
   
-1. Click on **Upload**, and from the drop-down select **Browse**.
- 
-    ![](Images/MS-900-12.png)
+1. Click on **Upload**, and from the drop-down select **OneDrive for Business**.
     
-1. Browse to where you saved the Financial Sample data file, and click on **Open**.
+1.Now, select your files and select **Upload**.
 
 
 #### Task 2 : Visualize data
@@ -299,6 +291,7 @@ In this task, you will import sample financial data to PowerBI.
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
 1. Go to setting in power Bi, click on Admin Portal, further search for map and enable the **Use Azure Maps visual**, and select **Apply**.
+    
     ![](Images/MS-900-admin.png)
 
     ![](Images/MS-900-13.1.png)
@@ -307,25 +300,17 @@ In this task, you will visualize the data which you had imported in the previous
     
     ![](Images/MS-900-14.png)
     
-1. Go to My workspace and Click on **New (1)** from the drop-down Select **Dataset (2)**.
-    
-    ![](Images/dateset.png)
+1. Go to My workspace and select **New (1)** from the drop-down Select **Semantic model (2)**.
     
 1. On **Add date to start building a report** window, Select **Excel**.
 
     ![](Images/excel.png)
    
-1. On **Select a file** window, Click on **Browse this device**.
-
-    ![](Images/browsfile.png)
-    
-1. Select previously downloaded **Financial Sample** excel.
-
-   ![](Images/selectexcel.png)
+1. On **Select a file** window, select **Financial Sample** excel and select **Import**.
             
-1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+ Create a report (1)**, click on **Start from scratch (2)**.
+1. On **Financial Sample** page. From the dropdown of **Explore this data (1)**, select **Create a blank report (2)**.
 
-    ![](Images/fromscrach.png)
+    ![](Images/financialsample.png)
 
 1. The report opens in the Editing view and displays the blank report canvas. On the right are the **Visualizations**, **Filters**, and **Data** panes.
 
@@ -340,6 +325,10 @@ In this task, you will visualize the data which you had imported in the previous
 1. Select a blank area on your report canvas and click on **Maps (2)** under visualization (1) pane. From the **Data (3)** pane, select **Country (4)**, and **Profit (5)** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
 
     ![](Images/map.png)
+
+    >**Note:** If you are not able to see the Maps, then select **Focus mode**, and on the focus mode, select **Back to report**, now your map will come as expected.
+        
+    ![](Images/focusmode.png)
 
 1. In this way you can explore through other visualization options.
 
@@ -365,9 +354,9 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. Open a browser where admin center is opened.
 
-1. From the navigation menu , select **Billing**, and select **Licenses**.
+1. From the navigation menu , select **Billing (1)**, and select **Licenses (2)**.
 
-    ![](Images/MS-900-Mod-3-billing.png)
+    ![](Images/billing.png)
 
 1. Select the **Enterprise Mobility + Security E5** license, select **+ Assign licenses**, search and select the ODL user, and click on **Assign**.
 
