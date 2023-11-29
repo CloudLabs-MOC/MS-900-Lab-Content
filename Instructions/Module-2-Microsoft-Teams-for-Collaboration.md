@@ -92,8 +92,6 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. In the admin team's account, search and select the newly created user from the search bar and initiate a conversation.
 
-     ![](Images/img40.png)
-
 1. Now switch back to the team's user account and verify the message.
 
 1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and select **Create a new team**.
@@ -124,7 +122,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 In this task, we will learn how to schedule a meeting in Teams.
 
-1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), from the top left corner click on **App launcher**.
+1. On the Microsoft Edge, open an another tab, and open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), from the top left corner click on **App launcher**.
 
 1. Select **Teams** app.
 
@@ -138,11 +136,11 @@ In this task, we will learn how to schedule a meeting in Teams.
   
     ![](Images/M2E1T2Step201.png)
    
-   - **Add Title:** Provide a name for the meeting.
+   - **Add Title:** Provide any name for the meeting.
    
-   - **Add required attendees:** Search and select the ODL user.
+   - **Add required attendees:** <inject key="AzureAdUserEmail"></inject>
    
-   - Select the date and time as per the requirements.
+   - Select the date and time as per your requirements.
    
    - If it's a recurring meeting, open the dropdown menu next to **Does not repeat** (just below the date). Choose how often you want it to occur from the default options or select Custom to create your own cadence.
    
@@ -164,60 +162,60 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Teams policies in Microsoft Teams can be used to control what users in your organization can do in teams and channels.
 
-1. Go back to the Microsoft 365 Admin centers page, from the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
+1. Navigate back to the Microsoft 365 Admin centers page, from the left-hand navigation menu, select show all and under **Admin centers (1)** select **Teams (2)**. This will redirect you to **Microsoft Teams admin center**.
 
     ![](Images/img43.png)
    
-1. From the **Left navigation menu** select **Teams** and under it select **Manage teams**. From here you can manage all the teams and channels, create new ones, and manage the existing ones.
+1. From the Left-hand navigation menu select **Teams (1)** and under it select **Manage teams (2)**. From here you can manage all the teams and channels, create new ones, and manage the existing ones.
 
     ![](Images/MS-900-Mod-2-manageteams.png)
 
 1. The Manage teams page displays the list of your teams along with channels, users, and the status of the team.
 
-1. From here you can add a new team by clicking on **+ Add**. In the **Add a new team**  page fill in the details and click on **Apply**.
+1. From here you can add a new team by clicking on **+ Add**. In the **Add a new team**  page fill in the details and select **Apply**.
 
-    * Name: **Services-Team**
-    * Privacy: **Private**
+    - Name: **Services-Team**
+    - Privacy: **Private**
 
-1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
+1. Select your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 
-1. Now from the **Left navigation menu**, select **Messaging**, select  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
+1. Now from the left-hand navigation menu, select **Messaging (1)**, and select **Messaging policies (2)**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
     ![](Images/MS-900-Mod-2-messaging.png)
 
-1. In the **Messaging policies** page click on **+ Add**. 
+1. On the **Messaging policies** page select **+ Add**. 
 
     - Provide a name as **Disable giphy** and description for the policy.
    
-    - Disable **Giphy in conversations** and **Delete sent messages**. You can explore through all the **Messaging policies** settings and select changes that you want.
+    - Disable **Delete sent messages** and **Giphy in conversations**. You can explore through all the **Messaging policies** settings and select changes that you want.
    
-    - Click on **Save**.
+    - Select **Save**.
     
        ![](Images/MS-900-Mod-2-giphy.png)
    
-1. To assign a policy to the user, select the policy that you have created and click on **Manage Users** drop-down, select **Assign User**. In the search bar, search and add the odl user and click on **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up.
+1. To assign a policy to the user, select the **checkbox of the policy (1)** that you have created and click on **Manage Users (2)** drop-down, select **Assign User (3)**. In the search bar, search and add the **Odl_User <inject key="DeploymentID" enableCopy="false"/>**, select **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up.
  
-    ![](Images/MS-900-Mod-2-(managepolicies).png)
+    ![](Images/disablegiphy.png)
 
 1. Switch back to the browser in which teams app is opened.
 
      >**Note**: close the teams calendar if it is opened.
 
-1. Now select **New chat**, in that search with the ODL email address and type a message, and notice **Delete** option is not available.
+1. Now select **New chat**. In **To** section search for **<inject key="AzureAdUserEmail"></inject> (1)**, select it. Type and send the message, after sending the message right-click on the message, and notice **Delete** option is not available.
 
-     ![](Images/MS-900-Mod-2-newchat.png)
+     ![](Images/teamsodl.png)
+     
+     ![](Images/typeamessage.png)
 
-11. Switch back to the browser in which microsoft admin center is opened. In the left navigation of the Microsoft Teams admin center, select **Teams apps**  and select **Permission policies**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
+11. Switch back to the browser in which microsoft admin center is opened. from the left-hand navigation menu, under **Admin centers** select **Teams**. On the Microsoft Teams admin center, from the left-hand navigation menu select **Teams apps (1)**  and select **Permission policies (2)**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
 
      ![](Images/MS-900-Mod-2-(permissions).png)
 
-1. Click on **+ Add**. 
+1. Select **+ Add**. 
 
 1. Provide a name as **App restrictions** and description for the policy.
 
-1. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
-
-     ![](Images/MS-900-Mod-2-app.png)
+1. Under **Microsoft apps** select **Allow specific apps and block all others **. You can also select other options based on your requirement.
 
 1. Select **Allow apps**, search and add for the apps that you want to allow, and then click **Allow**.
 
@@ -229,7 +227,7 @@ In this task, we will create and assign a messaging policy to the user from the 
      
      >**Note:** Ignore any error you received while saving the policy, Go back to the **Permission policies** page, Click on **Discard**, You can see your newly created policy.
      
-1. To apply this policy to specific users select your newly created policy, click on **Manage users** dropdown, select **Assign users** in the search bar search and add the odl user to apply this policy. Select **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up..
+1. To apply this policy to specific users select the newly created app permission policy checkbox, click on **Manage users** dropdown, select **Assign users** in the search bar search and add the **<inject key="AzureAdUserEmail"></inject>** to apply this policy. Select **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up..
 
 1. This policy will enable users to access only the apps that you have allowed.
 
