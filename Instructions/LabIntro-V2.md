@@ -121,8 +121,6 @@ Now you're all set to explore the powerful world of technology. Feel free to rea
    ![](Images/Ms900-06.png)
 
 1. On information required pop-up, select **Continue**, it will redirect you to the new page, then go back.
-   
-   ![](Images/Ms900-07.png)
 
 1. Now, navigate back to the Azure portal.
 
