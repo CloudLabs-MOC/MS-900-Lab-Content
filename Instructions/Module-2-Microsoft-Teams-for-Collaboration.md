@@ -94,9 +94,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. Now switch back to the team's user account and verify the message.
 
-1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and select **Create a new team**.
-
-     ![](Images/img211-1.png)
+1. To create a new team from the left navigation menu select **Teams**, click on **+** icon and select **Create team**.
     
 1. On **Create a team** page, select **From Scratch** option. 
    
@@ -215,7 +213,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Provide a name as **App restrictions** and description for the policy.
 
-1. Under **Microsoft apps** select **Allow specific apps and block all others **. You can also select other options based on your requirement.
+1. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
 
 1. Select **Allow apps**, search and add for the apps that you want to allow, and then click **Allow**.
 

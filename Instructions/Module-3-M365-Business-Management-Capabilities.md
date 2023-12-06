@@ -271,7 +271,7 @@ In this task, you will import sample financial data to PowerBI.
 
 1. From the **App launcher** click on **Explore all your apps** and in the search bar search for **Power BI**, this will redirect you to the **Power BI** web page.
 
-1. Open a new browser, copy-paste this URL "https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download". Now, select **Financial Sample Excel workbook**, it will re-direct you to an Excel sheet, and select **Download file** to download the sample data. 
+1. Open a new browser, copy-paste this URL https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download. Now, select **Financial Sample Excel workbook**, it will re-direct you to an Excel sheet, and select **Download file** to download the sample data. 
 
      ![](Images/MS-900-Mod-1-directly.png)
 
@@ -384,7 +384,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
       
       - **Software update status** - See a visual of the deployment status for all devices and all users.
       
-      ![](Images/img198.png)
+        ![](Images/img198.png)
 
 1. Under **Policy** section, select **Compliance policies**, to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 

@@ -207,7 +207,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
 
      - **Set password**: When a user clicks the link, they will be prompted to enter a password before they can access the file. You will need to provide this password separately to users.
      
-    ![](Images/lab1-E2t2-img9.png)
+        ![](Images/lab1-E2t2-img9.png)
        
 1. Once you're back at the main **Share** box enter a name or email of users with whom you intend to share the file, click on **Send**. You can also select **Copy Link** to copy the link to your clipboard and share it.
   
