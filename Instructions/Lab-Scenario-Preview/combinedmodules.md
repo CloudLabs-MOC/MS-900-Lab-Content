@@ -17,6 +17,6 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-   
+![](media/MS-900-Combined.PNG)   
 
    >**Note**: Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located at the top right corner which leads you to the lab environment and lab guide interface . You can also have a detailed preview of the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/f0a9ce6f-37b4-4761-b674-1e989cac8f40), prior to launching your environment.
