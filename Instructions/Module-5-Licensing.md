@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 
 + Exercise 1: Browse Licensing center in M365 Admin center 
 
-## Estimated Timing: 90 minutes
+## Estimated Timing: 15 minutes
 
 ## Architecture diagram
 ![](../Instructions/Lab-Scenario-Preview/media/MS-900-LSP-Mod-5.png)
