@@ -1,0 +1,29 @@
+[
+    {
+     "Name": "Lab Scenario Preview - MS-900: Introduction to Microsoft 365 Admin Center",
+     "Language": "English",
+     "BaseURL": "https://github.com/CloudLabs-MOC/MS-900-Lab-Content/tree/self-paced",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Instructions/Lab-Scenario-Preview/Module01.md",
+           "Order": 1
+         },
+         {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Instructions/Lab-Scenario-Preview/Module02.md",
+            "Order": 2
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Instructions/Lab-Scenario-Preview/Module03.md",
+            "Order": 3
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Instructions/Lab-Scenario-Preview/Module04.md",
+            "Order": 4
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Instructions/Lab-Scenario-Preview/Module05.md",
+            "Order": 5
+        }
+      ]  
+    } 
+ ]

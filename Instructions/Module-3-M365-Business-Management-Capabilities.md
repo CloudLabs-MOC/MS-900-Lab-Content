@@ -35,49 +35,9 @@ In this lab, you will complete the following tasks:
 
   In this exercise, you will learn how to create groups and add members to it from the admin center.
 
-#### Task 1: Create Office 365 Users [Read-Only]
+#### Task 1: Create Office 365 Groups
 
-1. Open a new tab in the browser and log in to the admin center at https://admin.microsoft.com.
-
-3. From the left-hand navigation menu, select **Users (1)** and select **Active users (2)**. This will display the list of active users.
-
-    ![](Images/ms900-lab1-3-img1.png)
-
-4. Now to create a new user, from the navigation menu click on **Users icon (1)** and click on **Active users (2)**, and then select **Add a user (3)** icon.
-
-    ![](Images/ms900-lab1-3-img3.png)
-
-5. In the **Set up the basics pane**, fill the following details, and then select **Next**.
-
-   - **First name:** Odl
-
-   - **Display Name:** Odl_User-<inject key="DeploymentID" enableCopy="false" />
-
-    - **Username:** Odl
-
-    ![](Images/ms-900-lab1-img2.png)
-     
-   - **Automatically create a password**: unselected
-
-   - **Password**: Enter a strong password
-   
-6. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
-
-     ![](Images/img6.png ) 
-
-7. In the **Optional settings**  pane, leave everything as default and click on **Next**.
-
-    ![](Images/ms900-lab1-img6.png)
-
-8. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
-
-    ![](Images/ms900-lab1-img7.png)
-   
-9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
-
-#### Task 2: Create Office 365 Groups
-
-1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
+1. Open the Microsoft 365 admin center page.
 
 1. From the left-hand navigation menu click on the **Teams & Groups (1)** and click on **Active teams & groups (2)**. Under **Teams & Microsoft 365 groups (3)**, select **+ Add a Microsoft 365 group (4)**.
 
@@ -89,21 +49,19 @@ In this lab, you will complete the following tasks:
 
     ![](Images/sales-demo.png)   
 
-13. On the **Owners** page, select **+ Assign owners**, select the name of ODL user (1) who will be designated to manage the group, then select **Add (2)**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
+13. On the **Owners** page, select **+ Assign owners**, select **<inject key="AzureAdUserEmail"></inject> (1)** who will be designated to manage the group, then select **Add (2)**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
     ![](Images/M3E2T1Step601.png) 
   
     ![](Images/assignowner.png)  
    
-14. Now in the **Members** page, select **+ Add members**, select ODL user (1), click on **Add (2)**, and then click **Next**. (**Note:** you can join 20 member including owner) 
-   
-    ![](Images/addmembers.png)
+14. Now in the **Members** page, select **+ Add members**, select the member that you created in Module 1, click on **Add**, and then click **Next**. (**Note:** you can join 20 member including owner) 
 
 15. Now in the **Settings** page, type a unique email address for the group (1), choose a privacy option based on your requirement (2), and whether you want to add Microsoft Teams for the group, and then click **Next (3)**.
 
     ![](Images/groupsetting.png)
 
-17. Review your settings and make any changes if needed, select **Create group**, and then **close**.
+17. Review your settings and make any changes if needed, select **Create group**, and then **close** the page.
 
     ![](Images/creategroup.png)
 
@@ -153,7 +111,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
     >**Note**: Perform this step only if members are not added to the plan.
 
-1. Search with the ODL email address and select the person's card when it appears.
+1. Search with the email address of the user that you created in Module 1, and select the person's card when it appears.
 
 1. Now to create a bucket select **Add new bucket**. Buckets helps to organize tasks into things like workstreams, project phases, or topics. 
 
@@ -165,7 +123,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Set a due date for the task
     
-    - Click on **Assign** and choose a plan member from the list. Select **ODL_User <inject key="DeploymentID" enableCopy="false"/>**. Select **Add task**.
+    - Click on **Assign** and choose a plan member from the list. Select the user that you created in Module 1. Select **Add task**.
  
 1. Select the task that you created to open the task window. 
  
@@ -290,7 +248,7 @@ In this task, you will import sample financial data to PowerBI.
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
-1. Go to setting in power Bi, click on Admin Portal, further search for map and enable the **Use Azure Maps visual**, and select **Apply**.
+1. Go to **setting (1)** in power Bi, click on **Admin Portal (2)**, further search for map and enable the **Use Azure Maps visual**, and select **Apply**.
     
     ![](Images/MS-900-admin.png)
 
@@ -300,7 +258,7 @@ In this task, you will visualize the data which you had imported in the previous
     
     ![](Images/MS-900-14.png)
     
-1. Go to My workspace and select **New (1)** from the drop-down Select **Semantic model (2)**.
+1. Go to My workspace and select **New** from the drop-down Select **Semantic model**.
     
 1. On **Add date to start building a report** window, Select **Excel**.
 
@@ -322,7 +280,7 @@ In this task, you will visualize the data which you had imported in the previous
   
 1. We can also create a map visualization. In this, we will check which countries are the most profitable.
 
-1. Select a blank area on your report canvas and click on **Maps (2)** under visualization (1) pane. From the **Data (3)** pane, select **Country (4)**, and **Profit (5)** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
+1. Select a blank area on your report canvas and click on **Map (2)** under visualization (1) pane. From the **Data (3)** pane, select **Country (4)**, and **Profit (5)** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
 
     ![](Images/map.png)
 
@@ -344,7 +302,7 @@ In this task, you will visualize the data which you had imported in the previous
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Exercise 5 : Explore Microsoft EndPoint Manager [Read-Only]
+### Exercise 5 : Explore Microsoft EndPoint Manager
 
 Microsoft Endpoint Manager helps deliver the modern workplace and modern management to keep your data secure, in the cloud and on-premises. Endpoint Manager includes the services and tools you use to manage and monitor mobile devices, desktop computers, virtual machines, embedded devices, and servers. Endpoint Manager combines services like Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot.
 
@@ -352,27 +310,33 @@ In this exercise, you will explore various available options in Microsoft EndPoi
 
 Before we explore the Microsoft EndPoint Manager, we need to activate the **Enterprise Mobility + Security E5** license in order to view the **Endpoint Manager**.
 
-1. Open a browser where admin center is opened.
+1. Open **Azure Portal**.
 
-1. From the navigation menu , select **Billing (1)**, and select **Licenses (2)**.
+1. In the **Search resources, services and docs**, search for **Microsoft Entra ID (1)** and select **Microsoft Entra ID (2)**. On the **Microsoft Entra ID** page, from the left-hand navigation menu select **Licenses**.
 
-    ![](Images/billing.png)
+   ![](Images/microsoftentraID.png)
 
-1. Select the **Enterprise Mobility + Security E5** license, select **+ Assign licenses**, search and select the ODL user, and click on **Assign**.
+1. On the **Licenses | Overview** page, select **All products (1)**. Select the checkbox of **Enterprise Mobility + Security E5 (2)** license, from the top select **+ Assign (3)**.
 
-1. Switch back to **Admin Center** portal. Refresh your browser window. Select **Show all** Now from the navigation menu scroll down to Admin centers, and select **Endpoint Manager**. This will redirect you to the Endpoint Manager admin center.
+   ![](Images/MS-900-License1.png)
+
+1. On the **Assign license** page, under **Users and groups (1)**, select **+ Add users and groups (2)**, choose **ODL_User <inject key="DeploymentID" enableCopy="false"/>**, click on **Select**, on the **Assign license** page, select **Review + Assign**, and **Assign**.
+
+   ![](Images/addusersgroups.png)
+
+1. Switch back to **Microsoft 365 admin center** portal. From the left navigation pane, select **Show all**, under **Admin centers**, select **Endpoint Manager**. This will redirect you to the **Microsoft Intune admin center**.
 
     ![](Images/img196.png)
 
-1. From the navigation pane, select **Dashboard** to display overall details about the devices and client apps in your Intune tenant.
+1. From the left navigation pane, select **Dashboard** to display overall details about the devices and client apps in your Intune tenant.
 
-    ![](Images/img197.png)
+    ![](Images/MS-900-Intune.png)
 
 1. Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). Intune is part of Microsoft's Enterprise Mobility + Security (EMS) suite.
 
-1. From the navigation pane, select **Devices**  to display details about the enrolled devices in your Intune tenant.
+1. From the left navigation pane, select **Devices**  to display details about the enrolled devices in your Intune tenant.
 
-1. The Devices, **Overview** pane has several tabs that allow you to view a summary of the following statuses and alerts:
+1. On the **Devices**, under **Overview** pane, it has several tabs that allow you to view a summary of the following statuses and alerts:
 
       -  **Enrollment status** - Review details about Intune enrolled devices by platform and enrollment failures.
       
@@ -384,7 +348,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
       
       - **Software update status** - See a visual of the deployment status for all devices and all users.
       
-        ![](Images/img198.png)
+        ![](Images/MS-900-Intune1.png)
 
 1. Under **Policy** section, select **Compliance policies**, to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
@@ -400,21 +364,25 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. In the  **Devices** page, select **All devices** to display details about your Intune tenant's enrolled devices. This list of devices show key details about compliance, OS version, and last check-in date. 
 
-    ![](Images/img202.png)
+    ![](Images/MS-900-devices.png)
   
     >**Note:** You will not see any devices present in your lab environment. 
 
-1. From the navigation pane select **Apps**. On the apps page select **All apps** this displays a list of apps that have been added to Intune. You can add a variety of different app types based on the platform to Intune. Once an app has been added, you can assign it to groups of users.
+1. From the navigation pane select **Apps (1)**. On the apps page select **All apps (2)** this displays a list of apps that have been added to Intune. You can add a variety of different app types based on the platform to Intune. Once an app has been added, you can assign it to groups of users.
 
-    ![](Images/img203.png)
+    ![](Images/MS-900-allapps.png)
 
     >**Note:** You will not see any apps present in your lab environment. 
 
-1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
-    
-    >**Note:** You will have different list of users in your environment.
+1. From the left navigation pane, select **Users (1)**, and select **All users (2)** to display details about the users that you have included in Intune.
 
-1. From the navigation pane, select **Groups** to display details about the Microsoft Entra ID groups included in Intune. As an Intune admin, you use groups to manage devices and users.
+    ![](Images/MS-900-Users1.png)
+    
+    >**Note:** You may have different list of users in your environment.
+
+1. From the left navigation pane, select **Groups (1)**, and select **All groups (2)** to display details about the Microsoft Entra ID groups included in Intune. As an Intune admin, you use groups to manage devices and users.
+
+    ![](Images/MS-900-groups.png)
 
     >**Note:** You will have different list of groups in your environment.
      

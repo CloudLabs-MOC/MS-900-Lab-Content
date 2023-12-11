@@ -55,26 +55,29 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
  
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
       ![Enter Your Username](Images/sc900-image-1.png)
  
 
-3. Next, provide your password:
+1. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
       ![Enter Your Password](Images/sc900-image-2.png)
+
+1. If you see the pop-up **Action Required**, click **Ask Later**.
+
+   ![](Images/asklater.png) 
+
+1. If prompted to stay signed in, you can click "No."
+ 
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
 
-4. If prompted to stay signed in, you can click "No."
- 
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
- 
-
-6. Click "Next" from the bottom right corner to embark on your Lab journey!
+1. Click "Next" from the bottom right corner to embark on your Lab journey!
  
       ![Start Your Azure Journey](Images/sc900-image(3).png)
  
@@ -122,15 +125,15 @@ Now you're all set to explore the powerful world of technology. Feel free to rea
 
 1. On information required pop-up, select **Continue**, it will redirect you to the new page, then go back.
 
-1. Now, navigate back to the Azure portal.
+1. Now, navigate back to the **Azure portal**.
 
-1. In the **Search resources, services and docs**, search and select for **Microsoft Entra ID**. On the **Microsoft Entra ID** page, from the left-hand navigation menu select **Licenses**.
+1. In the **Search resources, services and docs**, search for **Microsoft Entra ID (1)** and select **Microsoft Entra ID (2)**. On the **Microsoft Entra ID** page, from the left-hand navigation menu select **Licenses**.
 
    ![](Images/microsoftentraID.png)
 
 1. On the **Licenses | Overview** page, select **All products (1)**. Select the checkbox of **Office 365 E5 (2)** license, from the top select **+ Assign (3)**.
 
-   ![](Images/allproducts.png)
+   ![](Images/MS-900-Licenses.png)
 
 1. On the **Assign license** page, under **Users and groups (1)**, select **+ Add users and groups (2)**, choose **ODL_User <inject key="DeploymentID" enableCopy="false"/>**, click on **Select**, on the **Assign license** page, select **Review + Assign**, and **Assign**.
 
