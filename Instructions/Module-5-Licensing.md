@@ -16,11 +16,11 @@ In this lab, you will complete the following tasks:
 
 ### Exercise 1: Browse Licensing center in M365 Admin center 
 
-1. Open the tab where **Microsoft 365 admin center** page is opened.
+1. Open a new tab, browse to **[Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home?#/homepage)**.
 
 1. On **Microsoft 365 admin centre** page, from the left-hand navigation menu scroll down to  **Billing** and select **Licenses**.
    
-1. On the **Subscriptions** page you can see available licenses, assigned license. Click on any of the licenses to get detailed information.
+1. On the **Subscriptions** page you can see available licenses, assigned license. Click on the license to get detailed information.
 
 1. This displays the list of users to whom the selected license is assigned. From here you can assign the license to users.
 
@@ -28,7 +28,7 @@ In this lab, you will complete the following tasks:
 
    ![](Images/ms900L5I2.png)
 
-1. In the **Assign licenses to users** pane, select the user that you created in Module 1. You can add up to 20 users at a time.
+1. In the **Assign licenses to users** pane, select the user to whom you want to assign the license. You can add up to 20 users at a time.
 
 1. Select **Turn apps and services on or off** to assign or remove access to specific items.
    
@@ -49,6 +49,13 @@ In this lab, you will complete the following tasks:
     ![](Images/License2.png)
 
 1. To learn more about licenses refer to  https://docs.microsoft.com/en-us/microsoft-365/commerce/licenses
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="dd590487-b820-47f9-9a69-51ddcb54a54b" />
 
 ## Review
 
