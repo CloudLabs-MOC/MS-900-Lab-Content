@@ -26,9 +26,11 @@ In this exercise, you will understand how to enable MFA in Microsoft Entra ID. T
 
 In this task, you will enable MFA in Azure Active Directory using Conditional Access Policy and verify the policy.
 
-1. Open the tab where **Microsoft 365 admin center** page is opened.
+1. Open a new tab, browse to **[Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home?#/homepage)**.
 
 1. From the left-hand navigation menu, select **Show all**, scroll down to  **Admin centers** and select **All admin centers**, select **Microsoft Entra**.
+
+   ![](Images/showall.png)
 
 1. On the left navigation pane, select **Protection (1)**. From the drop-down, select **Conditional access (2)**.
 
@@ -36,13 +38,13 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
 1. At the top of pane, click **+ Create new Policy**. 
 
-1. Provide a name for your policy as **MFA policy**. Under Assignments, select **0 Users and groups**. In the Include tab, **select users, and groups** and select the **Users and groups** from the list and select the user's you intend to enable MFA and click on **Select**.
+1. Provide a name for your policy as **MFA policy**. Under Assignments, select **0 Users and groups**. In the Include tab, **select users, and groups** and select the **Users and groups** from the list and select the **ODL_User <inject key="DeploymentID" enableCopy="false"/>** user from the list and enable MFA and click on **Select**.
 
-   ![](Images/ms900-t1.png)
+   ![](Images/mfa.png)
 
-1. Under **Target resources**, select **No target resources selected**. In the Include tab, select **Select Apps**, choose **Select**, select the apps for which you intend to apply policy.
+1. Under **Target resources**, select **No target resources selected**. In the Include tab, select **Select Apps**, choose **Select**, select the apps for which you intend to apply policy, and choose **Select**.
 
-1. Now under **Conditions** tab, select **0 conditions selected**, select **Client apps** and in **Client apps** page under **Configure** select **Yes** and then select **Done**. You can also make use of other conditions like risk, device platform, or location based on your requirement.
+1. Now under **Conditions** tab, select **0 conditions selected**, under **Client apps** select **No t configured** and in **Client apps** page under **Configure** select **Yes** and then select **Done**. You can also make use of other conditions like risk, device platform, or location based on your requirement.
    
 1. Now under **Access controls**, under **Grant**, select **0 controls selected**, select **Grant access**, check the **Require multi-factor authentication** checkbox, and click on **select**.
    
@@ -50,9 +52,9 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    >**Note :** You may see the error that Security defaults must be disabled to enable Conditional Access policy.
 
-1. Navigate back to the Azure Portal. In the **Search resources, services, and docs**, search and select the **Microsoft Entra ID**, from the left-hand navigation menu select **Properties (1)** then select **Manage security defaults (2)** and **Disabled (3)** it by selecting **My Organization is Using Conditional Access (4)** and click on **Save (5)**. Under **Disable security defaults** pop-up select **Disable**.
+1. Navigate back to the Azure Portal. In the **Search resources, services, and docs**, search and select the **Microsoft Entra ID**, from the left-hand navigation menu select **Properties (1)** then select **Manage security defaults (2)** and **Disabled (3)** it by selecting **My organization is planning to use Conditional Access (4)** and click on **Save (5)**. Under **Disable security defaults** pop-up select **Disable**.
    
-   ![](Images/MS-900-properties.png)
+   ![](Images/properties.png)
 
 1. Now, again re-perform the steps from 6-12, and this time you will be able to create the policy.
    
@@ -110,10 +112,11 @@ Privileged Identity Management (PIM) is a service in Microsoft Entra ID that ena
 1. You can learn more about Privileged identity management by referring to https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="314e648c-1cbb-474c-9b31-545d9701264e" />
 
 ### Exercise 2: Threat Protection 
 
@@ -149,7 +152,7 @@ In this task, you will explore Microsoft Threat Protection Portal.
 
 1. Now, from the left navigation menu select **Secure Score** this page provides an all-up summary of the different security features and capabilities you have enabled and includes recommendations for areas to improve.
 
-   ![](Images/MS-900-Securescore.png)
+   ![](Images/securescore.png)
    
 1. To learn more about Threat Protection refer to https://docs.microsoft.com/en-us/microsoft-365/security/mtp.
 
@@ -159,7 +162,7 @@ Microsoft Secure Score is a measurement of an organization's security posture, w
 
 In this task, you will learn about Microsoft Secure Score.
 
-1. Open a new-tab, and navigate to [Admin center](admin.microsoft.com) page, from the left-hand navigation pane under **Admin centres**, select **Security**. This will redirect you to the **Microsoft 365 Defender** web page.
+1. Open a new-tab, and navigate to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/home?#/homepage) page, from the left-hand navigation pane under **Admin centres**, select **Security**. This will redirect you to the **Microsoft 365 Defender** web page.
 
    >**Note**: If the Microsoft 365 defender page is not opening. Navigate to the link given [Microsoft 365 Defender](https://security.microsoft.com/homepage)
 
@@ -185,8 +188,9 @@ In this task, you will learn about Microsoft Secure Score.
     
     - **Achievable score**: Shows score that can be achieved with your Microsoft licenses and current risk acceptance.
     
-      ![](Images/MS-900-Include.png)
+      ![](Images/include.png)
     
+
 1. Now select **Recommended actions** tab, this lists the security recommendations that address possible attack surfaces. It also includes their status (to address, planned, risk accepted, resolved through the third party, resolved through alternate mitigation, and completed).
 
    ![](Images/MS-900-settings1.png)
@@ -285,9 +289,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
    
 1. Leave all defaults in **Scope** page and click on **Next**. 
   
-1. In the **Choose protection settings for labelled items** page, select **Apply or remove encryption (1)** and **Apply content marking (2)**. Click **Next (3)**. 
-
-   ![](Images/MS-900-Items.png)
+1. In the **Choose protection settings for labelled items** page, select **Control access** and **Apply content marking**. Click **Next**. 
 
 1. In the **Encryption** page, choose when you want to assign permissions, whether you want your users access to the content to expire, and whether you want to allow offline access. 
       
@@ -301,7 +303,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
       
 1. Under **Assign permissions to specific users or groups** click on **Assign permissions**. From here you can grant permissions to specific people so that only they can interact with the labelled content.
  
-1. In the **Assign permissions** pane, add users or groups that will be assigned permissions to the labelled content. For now, select **+ Add users or groups** and select the user or group for whom you want to assign the label. Select **Add**.
+1. In the **Assign permissions** pane, add users or groups that will be assigned permissions to the labelled content. For now, select **+ Add users or groups** and select the user **ODL_User<inject key="DeploymentID" enableCopy="false"/>**. Select **Add**.
 
    ![](Images/img93.png)  
  
