@@ -49,35 +49,27 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. Now open a new InPrivate window and log in to [Microsoft Teams](https://teams.microsoft.com/_#/conversations/General?threadId=19:8wQivfzovZjEhLVhWvKZK4Oq6Jes-tuglDEJMXJF6cI1@thread.tacv2&ctx=channel).
 
-1. When prompted enter the username and password of the user that you created in Module 01.
+1. When prompted enter the username and password of the user to whom you want to send the messages.
 
      >**Note**: if it asks you to choose between, **Download the windows app** or **Use the web app instead**, then select **Use the web app instead**.
 
      >**Note:** Close the **Bring your team together** pop-up.
 
-1. Minimize the InPrivate window. In the admin team's account, search and select the newly created user from the search bar and initiate a conversation.
+1. Minimize the InPrivate window. In the admin team's account, search and select the user to whom you want to send the messages from the search bar and initiate a conversation.
 
 1. Now switch back to the InPrivate window and verify that the user recieve the message, and after verifying, minimize the window .
 
-1. To create a new team from the left navigation menu select **Teams**, click on **+** icon and select **Create team**.
+1. To create a new team from the left navigation menu select **Teams**, click on **+** icon.
     
-1. On **Create a team** page, select **From Scratch** option. 
+1. On **Create a team** page, give the team name as **IT-Team (1)** and add a description if needed. Select **Private (2)** if you'd like people to request permission to join or select **Public** if anyone in your organization can join. Select **Create (3)**. 
    
-     ![](Images/M2E1T1Step1101.png)
+     ![](Images/itteam.png)
 
-1. Select **Private** if you'd like people to request permission to join or select **Public** if anyone in your organization can join.
-
-     ![](Images/M2E1T1Step1201.png)
-
-1. Give the team name as **IT-Team** and add a description if needed. Select **Create**.
-
-     ![](Images/img214.png)
-
-1. On **Add members to IT-Team** page, search and select the user that you created in Module 1, select **Add**, after adding the member select **Close**.
+1. On **Add members to IT-Team** page, search and select the user that you want to add as a member, select **Add**, after adding the member select **Close**.
 
 1. From here you can start a new conversation and share files.
 
-     ![](Images/MS-900-IT-Team.png)
+     ![](Images/it-team.png)
 
 #### Task 2: Scheduling Teams meeting
 
@@ -87,11 +79,11 @@ In this task, we will learn how to schedule a meeting in Teams.
 
 1. Now click on  **+ New Meeting**. 
   
-    ![](Images/MS-900-Newmeeting.png)
+    ![](Images/newmeeting.png)
    
    - **Add Title:** Provide any name for the meeting.
    
-   - **Add required attendees:** Enter the username of the user that you created in Module 1.
+   - **Add required attendees:** Enter the username of the user to whom you want to invite.
    
    - Select the date and time as per your requirements.
    
@@ -154,7 +146,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
      >**Note**: close the teams calendar if it is opened.
 
-1. Open the **Odl_User-<inject key="AzureAdUserEmail"></inject> (1)** chat. Type and send the message, after sending the message right-click on the message, and notice **Delete** option is not available.
+1. Open the **<inject key="AzureAdUserEmail"></inject> (1)** chat. Type and send the message, after sending the message right-click on the message, and notice **Delete** option is not available.
      
      ![](Images/typeamessage.png)
 
