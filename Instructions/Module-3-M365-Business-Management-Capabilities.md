@@ -37,7 +37,7 @@ In this lab, you will complete the following tasks:
 
 #### Task 1: Create Office 365 Groups
 
-1. Open the Microsoft 365 admin center page.
+1. Open the Microsoft 365 admin center page.using this link https://admin.microsoft.com.
 
 1. From the left-hand navigation menu click on the **Teams & Groups (1)** and click on **Active teams & groups (2)**. Under **Teams & Microsoft 365 groups (3)**, select **+ Add a Microsoft 365 group (4)**.
 
@@ -45,7 +45,7 @@ In this lab, you will complete the following tasks:
 
     ![](Images/addamicrosoft.png)
 
-12. On the Basics page, type a name for the group as **Sales-demo (1)** and a description (optional). Click **Next (2)**.
+12. On the Basics page, type a name for the group as **Sales-demo (1)** and a description. Click **Next (2)**.
 
     ![](Images/sales-demo.png)   
 
@@ -77,7 +77,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. On the Microsoft 365 admin center page select the **App launcher** at the top left corner.
  
-1. click on **Explore all your apps** and in the search bar search for **Planner** and select it, this will redirect you to the **Planner** web page.
+1. click on **Find Microsoft 365 apps** and in the search bar search for **Planner** and select it, this will redirect you to the **Planner** web page.
     
 1. On **Welcome to Planner** window, Click **>**.
  
@@ -165,7 +165,7 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Navigate back to the browser where admin center page is opened.
 
-1. In the Microsoft 365 admin center page from the **App launcher** click on **Explore all your apps** and in the search bar search for **Forms**, this will redirect you to the **Forms** web page.
+1. In the Microsoft 365 admin center page from the **App launcher** click on **Find Microsoft 365 apps** and in the search bar search for **Forms**, this will redirect you to the **Forms** web page.
 
 1. Select **New Form** to begin creating your form.
 
@@ -227,19 +227,19 @@ In this task, you will import sample financial data to PowerBI.
 
 1. Navigate to the browser where admin center page is opened.
 
-1. From the **App launcher** click on **Explore all your apps** and in the search bar search for **Power BI**, this will redirect you to the **Power BI** web page.
+1. From the **App launcher** click on **Find Microsoft 365 apps** and in the search bar search for **Power BI**, this will redirect you to the **Power BI** web page.
 
 1. Open a new browser, copy-paste this URL https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download. Now, select **Financial Sample Excel workbook**, it will re-direct you to an Excel sheet, and select **Download file** to download the sample data. 
 
      ![](Images/MS-900-Mod-1-directly.png)
 
-1. From the **App launcher** click on **Explore all your apps** and in the search bar search for **OneDrive**. Select **+ Add new**, select **Files upload**, now select the excel file that you downloaded. 
+1. From the **App launcher** click on **Find Microsoft 365 apps** and in the search bar search for **OneDrive**. Select **+ Add new**, select **Files upload**, now select the excel file that you downloaded. 
    
 1. Navigate back to the Power BI page, from the left navigation menu select **My workspace**.
 
     ![](Images/MS-900-11.png)
   
-1. Click on **Upload**, and from the drop-down select **OneDrive for Business**.
+1. Click on **Upload**, and from the drop-down select **OneDrive**.
     
 1.Now, select your files and select **Upload**.
 
@@ -330,37 +330,27 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. From the left navigation pane, select **Dashboard** to display overall details about the devices and client apps in your Intune tenant.
 
-    ![](Images/MS-900-Intune.png)
+    ![image](https://github.com/user-attachments/assets/211ee206-5535-41da-a0d6-945526f33c77)
 
-1. Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). Intune is part of Microsoft's Enterprise Mobility + Security (EMS) suite.
+
+
 
 1. From the left navigation pane, select **Devices**  to display details about the enrolled devices in your Intune tenant.
 
-1. On the **Devices**, under **Overview** pane, it has several tabs that allow you to view a summary of the following statuses and alerts:
+1. On the **Devices**, under **Overview** pane, it has several tabs that allow you to view a Manage devices by platform:
 
-      -  **Enrollment status** - Review details about Intune enrolled devices by platform and enrollment failures.
       
-      -  **Enrollment alerts** - Find more details about unassigned devices by platform.
+   ![image](https://github.com/user-attachments/assets/9deb56a3-3d04-4f17-b837-f1ab96450620)
 
-      -  **Compliance status** - Review compliance status based on device, policy, setting, threats, and protection. Additionally, this pane provides a list of devices without a compliance policy.
 
-      - **Configuration status** - Review configuration status of device profiles, as well as profile deployment.
-      
-      - **Software update status** - See a visual of the deployment status for all devices and all users.
-      
-        ![](Images/MS-900-Intune1.png)
+1. Under **Manage devices** section, select **Compliance**, to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
-1. Under **Policy** section, select **Compliance policies**, to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
-
-1. Navigate back to the Devices, select **Conditional Access** under **Policy**, and select **+ Create new policy** to see all the options available. Now select **X** to exit.
+1. Navigate back to the Devices, select **Conditional Access** under **Manage devices**, and select **+ Create new policy** to see all the options available. Now select **X** to exit.
 
    >**Note:** Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
     ![](Images/ca.png)
-
-1. From the navigation pane, select Devices and select **Configuration profiles** to display details about device profiles in Intune(**Reference**). 
-
-1. From here you can configure device restriction settings like Allow or block the device camera, control access to Google Play, app stores, viewing documents, and gaming, and much more.
+ 
 
 1. In the  **Devices** page, select **All devices** to display details about your Intune tenant's enrolled devices. This list of devices show key details about compliance, OS version, and last check-in date. 
 
