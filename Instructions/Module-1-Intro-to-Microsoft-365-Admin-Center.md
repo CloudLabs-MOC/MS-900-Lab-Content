@@ -165,7 +165,6 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 <validation step="b8cf10c9-1cd1-4133-b28c-68cbcfb8b75d" />
    
 #### Task 2: Explore OneDrive
