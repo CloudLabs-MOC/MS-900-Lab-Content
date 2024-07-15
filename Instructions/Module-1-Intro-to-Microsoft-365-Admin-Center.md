@@ -167,6 +167,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 <validation step="b8cf10c9-1cd1-4133-b28c-68cbcfb8b75d" />
    
+
 #### Task 2: Explore OneDrive
 
 OneDrive gives you one place to store, share, and sync your work or school files. As part of your organization's Microsoft 365 subscription, you can save your files in OneDrive and then work with them from almost any device, share files with others, give others permission to edit files and work on them at the same time.
