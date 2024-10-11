@@ -48,14 +48,14 @@ In this lab, you will complete the following tasks:
 
     ![](Images/License2.png)
 
-1. To learn more about licenses refer to  https://docs.microsoft.com/en-us/microsoft-365/commerce/licenses
+1. To learn more about licenses refer to  https://docs.microsoft.com/en-us/microsoft-365/commerce/licenses.
+
+<validation step="dd590487-b820-47f9-9a69-51ddcb54a54b" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-<validation step="dd590487-b820-47f9-9a69-51ddcb54a54b" />
 
 ## Review
 
