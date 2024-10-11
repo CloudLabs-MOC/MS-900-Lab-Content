@@ -161,13 +161,13 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
     
   1. From the left-hand menu you can explore all other options available. 
 
+<validation step="b8cf10c9-1cd1-4133-b28c-68cbcfb8b75d" />
+
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-<validation step="b8cf10c9-1cd1-4133-b28c-68cbcfb8b75d" />
    
-
 #### Task 2: Explore OneDrive
 
 OneDrive gives you one place to store, share, and sync your work or school files. As part of your organization's Microsoft 365 subscription, you can save your files in OneDrive and then work with them from almost any device, share files with others, give others permission to edit files and work on them at the same time.
