@@ -147,12 +147,12 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
+<validation step="e976c3fa-dbe6-401b-b487-99ad8661ad73" />
+
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-<validation step="e976c3fa-dbe6-401b-b487-99ad8661ad73" />
 
 ### Exercise 3 : Setup Microsoft Forms 
 
